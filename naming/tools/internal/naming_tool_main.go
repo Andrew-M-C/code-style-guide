@@ -55,6 +55,12 @@ func handleNameAbbreviation() {
 
 	// 按照字母序重新排序
 	sort.Slice(names, func(i, j int) bool {
+		if names[i].Short == "" {
+			return false
+		}
+		if names[j].Short == "" {
+			return true
+		}
 		return names[i].Short <= names[j].Short
 	})
 
