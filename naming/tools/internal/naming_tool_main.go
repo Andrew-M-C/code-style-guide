@@ -61,7 +61,7 @@ func handleNameAbbreviation() {
 		if names[j].Short == "" {
 			return true
 		}
-		return names[i].Short <= names[j].Short
+		return strings.ToLower(names[i].Short) <= strings.ToLower(names[j].Short)
 	})
 
 	// 输出到文件
