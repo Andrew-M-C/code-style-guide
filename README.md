@@ -5,6 +5,7 @@
 - 命名
   - [函数 / 变量无歧义缩写](./naming/常用无歧义缩写.md)
   - [常用的用词组合](./naming/一些常用的用词组合.md)
+  - [tRPC 服务相关的命名规范](./naming/trpc服务命名规范.md)
 - Git
   - [Commit 规范](./git/comment.md)
 - 目录与文件
